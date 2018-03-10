@@ -4,23 +4,55 @@ h2 {
 }
 
 .channel {
-  max-width: 80%;
-  margin: 2% 20%;
-  height: 200px;
+  margin-top: 2%;
+  /* height: 200px; */
   background-color: #333;
+  color: white;
+  border-radius: 15px;
+}
+
+.channel a img {
+  width: 160px;
+  height: 160px;
+  border-radius: 15px;
+  margin: 5%;
+}
+
+.displayName {
+  margin-top: 10%;
+  font-size: 40px;
+}
+
+.status {
+  font-size: 30px;
 }
 
 footer {
-  position: absolute;
+  /* position: absolute; */
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   font-size: 2em;
-  background-color: #333;
+  /* background-color: #333; */
 }
 
 .foot a {
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width : 992px) {
+  .channel a img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .displayName {
+    font-size: 25px;
+  }
+
+  .status {
+    font-size: 22px;
+  }
 }
