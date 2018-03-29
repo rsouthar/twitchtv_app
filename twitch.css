@@ -3,6 +3,10 @@ h2 {
   font-size: 5rem;
 }
 
+#fccStatus {
+  text-align: center;
+}
+
 .channel {
   margin-top: 2%;
   /* height: 200px; */
