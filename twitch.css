@@ -42,8 +42,12 @@ footer {
 }
 
 .foot a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
+}
+
+a:hover {
+  color: #808080;
 }
 
 @media screen and (max-width : 992px) {
