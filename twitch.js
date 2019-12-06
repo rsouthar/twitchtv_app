@@ -7,9 +7,9 @@ $(document).ready(function() {
     var displayName = data1.display_name;
     var logo = data1.logo;
     var status = data1.status;
-    console.log(displayName);
-    console.log(logo);
-    console.log(status);
+    // console.log(displayName);
+    // console.log(logo);
+    // console.log(status);
     if(data1.status===null){
       $('#fccStatus').prepend("<div class='row channel'>" +
       "<div class='col-md-3'>" +
